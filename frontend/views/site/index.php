@@ -11,7 +11,7 @@ $this->title = 'Customer Base';
 
         <p class="lead">Projeto para cadastro de PF e PJ.</p>
 
-        <!--<p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>-->
+        <p><a class="btn btn-lg btn-success" href="http://admin.customer-base.cianci.com.br/">Admin</a></p>
     </div>
 
     <!--<div class="body-content">
