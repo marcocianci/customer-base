@@ -14,19 +14,7 @@ use yii\filters\VerbFilter;
  */
 class LegalPersonController extends BaseActiveController
 {
-    /**
-     * @inheritdoc
-     */
-    public function behaviors()
-    {
-        return [
-            'verbs' => [
-                'class' => VerbFilter::className(),
-                'actions' => [
-                    'delete' => ['POST'],
-                ],
-            ],
-        ];
-    }
+
+    public $modelClass = 'common\models\LegalPerson';
 
 }
