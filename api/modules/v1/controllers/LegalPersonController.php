@@ -14,6 +14,7 @@ use yii\filters\VerbFilter;
  */
 class LegalPersonController extends BaseActiveController
 {
+    public $useAuthentication = false;
 
     public $modelClass = 'common\models\LegalPerson';
 
