@@ -57,6 +57,10 @@ return [
                     'pluralize' => false,
                     'controller' =>
                         [
+                            'user',
+                            'legal-person',
+                            'natural-person',
+                            //'',
                         ],
                 ],
             ],
