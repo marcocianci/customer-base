@@ -9,7 +9,7 @@ $this->title = 'Customer Base';
     <div class="jumbotron">
         <h1>Congratulations!</h1>
 
-        <p class="lead">Admin do proheto de cadastro de PJ e PF.</p>
+        <p class="lead">Admin do projeto de cadastro de PJ e PF.</p>
 
         <!--<p><a class="btn btn-lg btn-success" href="http://www.yiiframework.com">Get started with Yii</a></p>-->
     </div>
