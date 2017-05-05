@@ -11,7 +11,12 @@ return [
     'name' => 'Customer Base',
     'basePath' => dirname(__DIR__),
     'controllerNamespace' => 'api\controllers',
-    'bootstrap' => ['log'],
+    'aliases'  => [
+        // '@img' => dirname(__DIR__).'/web/img',
+        '@api' => dirname(dirname(__DIR__)).'/api', // add api alias
+    ],
+    // 'bootstrap' => ['log'],
+    'bootstrap'           => ['debug', 'log', 'common\extensions\ModuleBootstrap'],
     'modules' => [
         'gii'   => [
             'class'      => 'yii\gii\Module',
