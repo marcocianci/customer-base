@@ -1,10 +1,10 @@
 <?php
 
-use yii\db\Migration;
+//use yii\db\Migration;
 
-class m130524_444333_natural_person extends Migration
+class m130524_444333_natural_person extends \common\components\migrations\Migration
 {
-    public function up()
+    public function safeUp()
     {
         $tableOptions = null;
         if ($this->db->driverName === 'mysql') {
@@ -17,15 +17,26 @@ class m130524_444333_natural_person extends Migration
             'cpf' => $this->string(120)->notNull(),
             'born_date' => $this->date()->notNull(),
             'rg' => $this->string(20)->notNull()->unique(),
-            'userId' => $this->integer()->notNull(),
+            'user_id' => $this->integer()->notNull(),
 
             'created_at' => $this->integer()->notNull(),
             'updated_at' => $this->integer()->notNull(),
         ], $tableOptions);
+
+        $this->addForeignKey(
+            'fk-natural_person-user',
+            'natural_person',
+            'user_id',
+            'user',
+            'id',
+            'CASCADE',
+            'CASCADE'
+        );
+
     }
 
-    public function down()
+    public function safeDown()
     {
-        $this->dropTable('{{%people}}');
+        $this->dropTable('{{%natural_person}}');
     }
 }
