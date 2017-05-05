@@ -21,6 +21,10 @@ return [
             'class' => 'yii\debug\Module',
             'allowedIPs' => ['1.2.3.4', '127.0.0.1', '::1', '192.168.*.*','191.168.*.*']
         ],
+        'v1'          => [
+            'basePath'  => '@app/modules/v1',
+            'class'     => 'api\modules\v1\Module',
+        ],
     ],
     'components' => [
         'request' => [
@@ -59,9 +63,9 @@ return [
                     'pluralize' => false,
                     'controller' =>
                         [
-                            'user',
-                            'legal-person',
-                            'natural-person',
+                            'v1/user',
+                            'v1/legal-person',
+                            'v1/natural-person',
                             //'',
                         ],
                 ],
