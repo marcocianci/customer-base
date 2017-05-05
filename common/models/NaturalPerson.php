@@ -33,7 +33,7 @@ class NaturalPerson extends ActiveRecordModel
     public function rules()
     {
         return [
-            [['user_id'], 'required'],
+            [['cpf','rg'], 'required'],
             [['born_date', 'created_at', 'updated_at', 'born_date'], 'safe'],
             [['user_id', 'created_at', 'updated_at'], 'integer'],
             [['cpf'], 'string', 'max' => 120],
