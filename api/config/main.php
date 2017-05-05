@@ -10,7 +10,7 @@ return [
     'id' => 'app-backend',
     'name' => 'Customer Base',
     'basePath' => dirname(__DIR__),
-    'controllerNamespace' => 'backend\controllers',
+    'controllerNamespace' => 'api\controllers',
     'bootstrap' => ['log'],
     'modules' => [
         'gii'   => [
