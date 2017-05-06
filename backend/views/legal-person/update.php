@@ -5,8 +5,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\LegalPerson */
 
-$this->title = 'Update Legal Person: ' . $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Legal People', 'url' => ['index']];
+$this->title = 'Atualizar Pessoa Juridica: ' . $model->id;
+$this->params['breadcrumbs'][] = ['label' => 'Pessoa Juridica', 'url' => ['index']];
 $this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Update';
 ?>
