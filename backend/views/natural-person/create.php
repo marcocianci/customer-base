@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\NaturalPerson */
 
-$this->title = 'Create Natural Person';
-$this->params['breadcrumbs'][] = ['label' => 'Natural People', 'url' => ['index']];
+$this->title = 'Criar Pessoa Fisica';
+$this->params['breadcrumbs'][] = ['label' => 'Pessoa Fisica', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="natural-person-create">
