@@ -7,7 +7,7 @@ use yii\helpers\Html;
 
 $this->title = 'Atualizar Pessoa Juridica: ' . $model->social_name;
 $this->params['breadcrumbs'][] = ['label' => 'Pessoa Juridica', 'url' => ['index']];
-$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = ['label' => $model->social_name, 'url' => ['view', 'id' => $model->id]];
 $this->params['breadcrumbs'][] = 'Atualizar';
 ?>
 <div class="legal-person-update">
