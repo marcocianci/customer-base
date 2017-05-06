@@ -50,12 +50,12 @@ class NaturalPerson extends ActiveRecordModel
     {
         return [
             'id' => 'ID',
-            'cpf' => 'Cpf',
-            'born_date' => 'Born Date',
-            'rg' => 'Rg',
+            'cpf' => 'CPF',
+            'born_date' => 'Data de nascimento',
+            'rg' => 'RG',
             'user_id' => 'User ID',
-            'created_at' => 'Created At',
-            'updated_at' => 'Updated At',
+            'created_at' => 'Criado em',
+            'updated_at' => 'Atualizado em',
         ];
     }
 
