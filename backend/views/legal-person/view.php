@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model common\models\LegalPerson */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Legal People', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Pessoa Juridica', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="legal-person-view">
