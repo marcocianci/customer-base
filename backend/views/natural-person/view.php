@@ -7,7 +7,7 @@ use yii\widgets\DetailView;
 /* @var $model common\models\NaturalPerson */
 
 $this->title = $model->id;
-$this->params['breadcrumbs'][] = ['label' => 'Natural People', 'url' => ['index']];
+$this->params['breadcrumbs'][] = ['label' => 'Pessoa Fisica', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="natural-person-view">
