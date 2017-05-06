@@ -24,13 +24,21 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 
-            'id',
+            // 'id',
             'social_name',
             'state_registration',
             'cnpj',
-            'user_id',
+            // 'user_id',
             // 'created_at',
             // 'updated_at',
+            [
+                'attribute' => 'created_at',
+                'format'    => [ 'date', 'php:d/m/Y H:i' ]
+            ],
+            [
+                'attribute' => 'updated_at',
+                'format'    => [ 'date', 'php:d/m/Y H:i' ]
+            ],
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
