@@ -6,8 +6,8 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model common\models\LegalPerson */
 
-$this->title = 'Create Legal Person';
-$this->params['breadcrumbs'][] = ['label' => 'Legal People', 'url' => ['index']];
+$this->title = 'Criar Pessoa Juridica';
+$this->params['breadcrumbs'][] = ['label' => 'Pessoa Juridica', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="legal-person-create">
