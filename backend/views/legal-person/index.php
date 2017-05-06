@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\search\LegalPerson */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Legal People';
+$this->title = 'Pessoa Juridica';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="legal-person-index">
