@@ -50,12 +50,12 @@ class LegalPerson extends ActiveRecordModel
     {
         return [
             'id' => 'ID',
-            'social_name' => 'Social Name',
-            'state_registration' => 'State Registration',
-            'cnpj' => 'Cnpj',
+            'social_name' => 'Razão Social', //'Social Name',
+            'state_registration' => 'Inscrição Estadual', //'State Registration',
+            'cnpj' => 'CNPJ',
             'user_id' => 'User ID',
-            'created_at' => 'Created At',
-            'updated_at' => 'Updated At',
+            'created_at' => 'Criado em',
+            'updated_at' => 'Atualizado em',
         ];
     }
 
