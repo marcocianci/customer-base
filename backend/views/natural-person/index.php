@@ -7,7 +7,7 @@ use yii\grid\GridView;
 /* @var $searchModel common\models\search\NaturalPerson */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Natural People';
+$this->title = 'Pessoa Fisica';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="natural-person-index">
