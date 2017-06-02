@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5b442a6b4b2046d2d03540050b9c3cb2",
-    "content-hash": "f08e0abea71b3609f00e1c90c38a4e7d",
+    "hash": "94cb9dc3b5f86db5ed315f47f2c5b778",
+    "content-hash": "d9991f91c76fb4e1f3e871605201bc56",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -308,6 +308,48 @@
                 "html"
             ],
             "time": "2017-03-13 06:30:53"
+        },
+        {
+            "name": "marcocianci/word-counter",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcocianci/word-counter.git",
+                "reference": "9ebb31f525b0d9ee9897a6a5e81220b85c8df9d7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcocianci/word-counter/zipball/9ebb31f525b0d9ee9897a6a5e81220b85c8df9d7",
+                "reference": "9ebb31f525b0d9ee9897a6a5e81220b85c8df9d7",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MarcoCianci\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marco Cianci",
+                    "email": "marco@cianci.com.br"
+                }
+            ],
+            "description": "Recursive Word Counter",
+            "homepage": "http://www.github.com/marcocianci/word-counter",
+            "keywords": [
+                "counter",
+                "recursive",
+                "word"
+            ],
+            "time": "2017-04-02 15:49:54"
         },
         {
             "name": "swiftmailer/swiftmailer",

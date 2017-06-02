@@ -15,7 +15,7 @@ class BaseActiveController extends ActiveController
     /*
      * @var boolean
      */
-    public $useAuthentication = falsse;
+    public $useAuthentication = false;
 
     /**
      * @inheritdoc
