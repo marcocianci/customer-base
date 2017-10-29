@@ -54,8 +54,8 @@ class m130524_201442_user extends \common\components\migrations\Migration
                     'aluno@cianci.com.br',
                     User::ROLE_ADMIN,
                     User::STATUS_ACTIVE,
-                    new Expression('NOW()'),
-                    new Expression('NOW()')
+                    (new DateTime())->getTimestamp(),
+                    (new DateTime())->getTimestamp()
                 ],
                 [
                     'Marco',
@@ -65,8 +65,8 @@ class m130524_201442_user extends \common\components\migrations\Migration
                     'marco@cianci.com.br',
                     User::ROLE_ADMIN,
                     User::STATUS_ACTIVE,
-                    new Expression('NOW()'),
-                    new Expression('NOW()')
+                    (new DateTime())->getTimestamp(),
+                    (new DateTime())->getTimestamp()
                 ],
 
 
